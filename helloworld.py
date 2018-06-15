@@ -2,8 +2,17 @@ print("Hello World")
 print("Hello World2")
 
 a = 3
-b = 2
+b = 3
 
 c = a + b
 
-print(c)
+d = {'ABC': 123,'DEF':456}
+
+e = d['ABC']
+
+print(e)
+
+if a==b :
+    print("egal")
+else:
+    print("pas egal")
